@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 3161224261451250632}
   - component: {fileID: 2935181895428750599}
   m_Layer: 0
-  m_Name: Game Manager
+  m_Name: Flappy Bird Game Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -187,6 +187,7 @@ MonoBehaviour:
   scoreText: {fileID: 514386078173634406}
   playButton: {fileID: 2080458249364229716}
   gameOver: {fileID: 8725383574433690442}
+  flappyBirdCamera: {fileID: 1523675346712211785}
 --- !u!1 &1503646184797151731
 GameObject:
   m_ObjectHideFlags: 0

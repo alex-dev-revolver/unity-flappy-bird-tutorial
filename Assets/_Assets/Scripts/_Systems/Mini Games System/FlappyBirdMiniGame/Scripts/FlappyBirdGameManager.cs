@@ -6,11 +6,14 @@ public class FlappyBirdGameManager : MonoBehaviour
 {
     public static FlappyBirdGameManager Instance { get; private set; }
 
-    [SerializeField] private Player player;
+    [SerializeField] private PlayerFlappyBird player;
     [SerializeField] private Spawner spawner;
     [SerializeField] private Text scoreText;
     [SerializeField] private GameObject playButton;
     [SerializeField] private GameObject gameOver;
+    
+    [SerializeField] private Camera flappyBirdCamera;
+    public Camera FlappyBirdCamera => flappyBirdCamera;
 
     public int score { get; private set; } = 0;
 

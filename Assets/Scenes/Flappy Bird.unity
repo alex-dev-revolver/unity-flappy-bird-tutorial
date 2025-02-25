@@ -261,11 +261,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flappy Bird Game
       objectReference: {fileID: 0}
-    - target: {fileID: 1245208786278134610, guid: a9b4afe8be8329a41b98c7693730ebc4,
-        type: 3}
-      propertyPath: m_Name
-      value: Flappy Bird Game Manager
-      objectReference: {fileID: 0}
     - target: {fileID: 5983366477934054721, guid: a9b4afe8be8329a41b98c7693730ebc4,
         type: 3}
       propertyPath: m_LocalPosition.x

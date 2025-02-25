@@ -11,7 +11,7 @@ public class Pipes : MonoBehaviour
 
     private void Start()
     {
-        leftEdge = Camera.main.ScreenToWorldPoint(Vector3.zero).x - 1f;
+        leftEdge = FlappyBirdGameManager.Instance.FlappyBirdCamera.ScreenToWorldPoint(Vector3.zero).x - 1f;
         top.position += Vector3.up * gap / 2;
         bottom.position += Vector3.down * gap / 2;
     }

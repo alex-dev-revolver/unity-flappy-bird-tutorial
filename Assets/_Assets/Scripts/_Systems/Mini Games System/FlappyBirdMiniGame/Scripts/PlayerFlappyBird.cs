@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Player : MonoBehaviour
+public class PlayerFlappyBird : MonoBehaviour
 {
     public Sprite[] sprites;
     public float strength = 5f;
@@ -61,9 +61,9 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Obstacle")) {
-            GameManager.Instance.GameOver();
+            FlappyBirdGameManager.Instance.GameOver();
         } else if (other.gameObject.CompareTag("Scoring")) {
-            GameManager.Instance.IncreaseScore();
+            FlappyBirdGameManager.Instance.IncreaseScore();
         }
     }
 
