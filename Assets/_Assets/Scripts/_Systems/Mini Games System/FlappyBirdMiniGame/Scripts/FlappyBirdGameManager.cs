@@ -2,9 +2,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [DefaultExecutionOrder(-1)]
-public class GameManager : MonoBehaviour
+public class FlappyBirdGameManager : MonoBehaviour
 {
-    public static GameManager Instance { get; private set; }
+    public static FlappyBirdGameManager Instance { get; private set; }
 
     [SerializeField] private Player player;
     [SerializeField] private Spawner spawner;
